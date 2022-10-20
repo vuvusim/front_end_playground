@@ -14,7 +14,7 @@ def user(name):
 def grazi_diena():
     return render_template("grazi_diena.html")
 
-@app.route("/zmones>")
+@app.route("/zmones")
 def zmones():
     zmones = ["Justina", "Darius", "Linas", "Ana", "Simas", "Arnoldas", "Sergejus"]
     return render_template("zmones.html", zmones=zmones)
